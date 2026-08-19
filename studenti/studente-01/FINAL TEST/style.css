@@ -1,0 +1,40 @@
+body{
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: #eaeaea;
+    color: #4e4e4e;
+}
+
+a{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+a:hover{
+    color: #6e6e6e;
+}
+#container {
+	display: flex;
+}
+
+
+//
+
+.then(function(data){
+    console.log("then 2:", data)
+    console.log(data.data)
+    let elemento=(data.data)
+    cartella=document.createElement('div');
+    cartella.style.backgroundColor='#a7a7a7';
+    cartella.style.width='100%';
+    cartella.style.heigth='500';
+    cartella.style.border= 'solid 2px';
+    cartella.style.display='flex';
+    cartella.style.justifyContend= 'space-around'; 
+
+
+})
+
+//

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: #eaeaea;
+    color: #4e4e4e;
+}
+
+a{
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+a:hover{
+    color: #6e6e6e;
+}
+
+
+.card {
+    width: 350px;
+    border-radius: 4px;
+    padding: 10px 0;
+    margin: 15px 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(206, 206, 206);
+    
+}
+
+.immag {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mail {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 60px;
+
+}
+
+.titolo {
+    color: rgb(82, 82, 82);
+    font-size: 32px;
+}
+
+.contact {
+    text-align: left;
+    padding: 20px 15px;
+}
+
+.pallino {
+    display: inline;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #4e4e4e;
+    color: white;
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.paginatore {
+    display: block;
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+    margin-left: 40%;
+    margin-top: 8px;
+    font-weight: bold;
+}
